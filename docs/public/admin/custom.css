@@ -1,0 +1,4 @@
+:root {
+    --accent: #007cba !important;          /* 主色，例如 #007cba */
+    --accent-light: #e5f5fa !important;    /* 浅色，例如 #e5f5fa */
+  }
