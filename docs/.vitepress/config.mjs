@@ -24,5 +24,15 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  // ===== 新增 CSP 配置 =====
+  head: [
+    [
+      'meta',
+      {
+        'http-equiv': 'Content-Security-Policy',
+        content: "script-src 'self' 'unsafe-eval' https://identity.netlify.com https://unpkg.com;"
+      }
+    ]
+  ]
 })
