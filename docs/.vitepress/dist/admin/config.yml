@@ -17,4 +17,4 @@ collections:
       - { label: '特色图片', name: 'thumbnail', widget: 'image' } # 图片上传
       - { label: '标签', name: 'tags', widget: 'list', default: ['教程'] } # 标签列表
       - { label: '文章状态', name: 'status', widget: 'select', options: ['草稿', '已发布'] } # 下拉选择
-      - { label: '正文', name: 'body', widget: 'markdown' } # 正文
+      - { label: '正文', name: 'body', widget: 'richtext' } # 正文

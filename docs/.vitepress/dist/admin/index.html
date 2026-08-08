@@ -20,23 +20,23 @@
         });
       }
     </script>
-    <script>
-      // 为 'guide' 集合创建一个预览模板
-      var GuidePreview = createClass({
-        render: function() {
-          var entry = this.props.entry;
-          var title = entry.getIn(['data', 'title']);
-          var body = this.props.widgetFor('body');
-          // 这里可以添加更复杂的HTML结构和样式
-          return h('div', {},
-            h('h1', {}, title),
-            h('div', {className: "content"}, body)
-          );
-        }
-      });
-    
-      // 注册这个预览模板，注意 'guide' 必须和 config.yml 中的集合名一致
-      CMS.registerPreviewTemplate("guide", GuidePreview);
-    </script>
+    // <script>
+    //  // 为 'guide' 集合创建一个预览模板
+    //  var GuidePreview = createClass({
+    //    render: function() {
+    //      var entry = this.props.entry;
+    //      var title = entry.getIn(['data', 'title']);
+    //      var body = this.props.widgetFor('body');
+    //      // 这里可以添加更复杂的HTML结构和样式
+    //      return h('div', {},
+    //        h('h1', {}, title),
+    //        h('div', {className: "content"}, body)
+    //      );
+    //    }
+    //  });
+    //
+    //  // 注册这个预览模板，注意 'guide' 必须和 config.yml 中的集合名一致
+    //  CMS.registerPreviewTemplate("guide", GuidePreview);
+    //</script>
   </body>
 </html>
