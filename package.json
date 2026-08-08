@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
+    "vite-plugin-decap-cms": "^0.5.2",
     "vitepress": "^1.6.4"
   }
 }
