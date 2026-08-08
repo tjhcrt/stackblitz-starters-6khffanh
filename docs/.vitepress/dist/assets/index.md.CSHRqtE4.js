@@ -1,0 +1,1 @@
+import e from"https://identity.netlify.com/v1/netlify-identity-widget.js?vue&type=script&src=true&lang.js";export*from"https://identity.netlify.com/v1/netlify-identity-widget.js?vue&type=script&src=true&lang.js";import{_ as o,o as r,c as t}from"./chunks/framework.L_oL6aia.js";function c(a,n,s,_,p,f){return r(),t("div")}const m=o(e,[["render",c]]);export{m as default};
