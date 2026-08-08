@@ -26,13 +26,13 @@ export default defineConfig({
     ]
   },
   // ===== 新增 CSP 配置 =====
-  head: [
-    [
-      'meta',
-      {
-        'http-equiv': 'Content-Security-Policy',
-        content: "script-src 'self' 'unsafe-eval' https://identity.netlify.com https://unpkg.com;"
-      }
-    ]
-  ]
+  //head: [
+  //  [
+  //    'meta',
+  //    {
+  //      'http-equiv': 'Content-Security-Policy',
+  //      content: "script-src 'self' 'unsafe-eval' https://identity.netlify.com https://unpkg.com;"
+  //    }
+  //  ]
+  //]
 })
